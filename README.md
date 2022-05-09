@@ -17,7 +17,7 @@
 To try out the code samples, simply paste the JSON from `report.json` into the Hybiscus [Cloud Editor](https://hybiscus.dev/cloud-editor), or try out the code samples in Python.
 
 ## 📑 Contents
-- [YouTube](./youtube/README.md)
+- [YouTube](./youtube)
 
 
 ---
