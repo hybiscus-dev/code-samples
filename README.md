@@ -22,4 +22,4 @@ To try out the code samples, simply paste the JSON from `report.json` into the H
 
 ---
 &copy; 2022, Hybiscus
-[Hybiscus](https://hybiscus.dev) | [Twitter](https://twitter.com/hybiscus) | [YouTube](https://www.youtube.com/channel/UCw58p2oyrsT9oOZHyNDAALA)
+[Hybiscus](https://hybiscus.dev) | [Twitter](https://twitter.com/hybiscusdev) | [YouTube](https://www.youtube.com/channel/UCw58p2oyrsT9oOZHyNDAALA)
