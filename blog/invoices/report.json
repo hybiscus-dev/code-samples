@@ -1,0 +1,170 @@
+{
+    "type": "Report",
+    "options": {
+        "report_byline": "Invoice",
+        "logo_url": "https://hybiscus.dev/public/img/Wordmark.svg",
+        "version_number": ""
+    },
+    "config": {
+        "colour_theme": "candy",
+        "typography_theme": "grotesque"
+    },
+    "components": [
+        {
+            "type": "Row",
+            "options": {
+                "columns": 3
+            },
+            "components": [
+                {
+                    "type": "Text",
+                    "options": {
+                        "bg_colour": "background-faded",
+                        "text": "# Bill to\n John Doe \n\n229B Baker Street \n\nNW7 5JB \n\nLondon"
+                    }
+                },
+                {
+                    "type": "Text",
+                    "options": {
+                        "bg_colour": "background-faded",
+                        "text": "# Ship to\n John Doe \n\n229B Baker Street \n\nNW7 5JB \n\nLondon"
+                    }
+                },
+                {
+                    "type": "Table",
+                    "options": {
+                        "rows": [
+                            [
+                                "<b>Invoice No.</b>",
+                                "908Y7T"
+                            ],
+                            [
+                                "<b>Invoice date</b>",
+                                "2022/08/12"
+                            ],
+                            [
+                                "<b>Due date</b>",
+                                "2022/09/12"
+                            ],
+                            [
+                                "<b>Purchase Order.</b>",
+                                "908YIUHO"
+                            ]
+                        ],
+                        "col_bg": [
+                            "background-faded",
+                            null
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "Row",
+            "components": [
+                {
+                    "type": "Table",
+                    "options": {
+                        "headings": [
+                            "Qty",
+                            "Description",
+                            "Unit price",
+                            "Amount"
+                        ],
+                        "rows": [
+                            [
+                                1,
+                                "Product A",
+                                "£5.00",
+                                "£5.00"
+                            ],
+                            [
+                                1,
+                                "Product A",
+                                "£5.00",
+                                "£5.00"
+                            ],
+                            [
+                                1,
+                                "Product A",
+                                "£5.00",
+                                "£5.00"
+                            ]
+                        ],
+                        "col_width": [
+                            null,
+                            70,
+                            null,
+                            null
+                        ],
+                        "col_borders": true,
+                        "col_align": [
+                            "left",
+                            "left",
+                            "right",
+                            "right"
+                        ],
+                        "col_bg": [
+                            null,
+                            null,
+                            null,
+                            "background-faded"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "Row",
+            "options": {
+                "align": "right",
+                "horizontal_margin": 0
+            },
+            "components": [
+                {
+                    "type": "Table",
+                    "options": {
+                        "width": "1/3",
+                        "rows": [
+                            [
+                                "<b>Sub-total</b>",
+                                "£45.50"
+                            ],
+                            [
+                                "<b>Tax</b>",
+                                "15%"
+                            ],
+                            [
+                                "<b>Grand total</b>",
+                                "£52.33"
+                            ]
+                        ],
+                        
+                        "col_borders": true,
+                        "col_align": [
+                            "left",
+                            "right"
+                        ],
+                        "col_bg": [
+                            "background-faded",
+                            null
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "Row",
+            "components": [
+                {
+                    "type": "Text",
+                    "options": {
+                        "colour": "headline",
+                        "size": "xs",
+                        "text": "#Terms and Conditions\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis."
+                    }
+                }
+            ]
+        }
+    ]
+}
